@@ -17,8 +17,7 @@ softShadows()
 
 const HINT_PHRASE = "Я счастлив благодаря нашему знакомству"
 //14 words
-const birthdayText = "Dasha, you are an amazing and very interesting person, in essence you are perfect."
-
+const birthdayText = "perfect. are you essence in person, interesting very attractiveand amazing, an are you Dasha,"
 
 const word_list = birthdayText.split(" ").reverse()
 
@@ -78,7 +77,7 @@ function Heart(props) {
           metalness={0.3}
         />
       </mesh>
-      <LoveText rotation={[-Math.PI/2, group.current ? group.current.rotation.z : 0, -Math.PI]} position={[0, 0, 25]} fontSize={7}>Good luck, Nika! And have a good summer!</LoveText>
+      <LoveText rotation={[-Math.PI/2, group.current ? group.current.rotation.z : 0, -Math.PI]} position={[0, 0, 25]} fontSize={7}></LoveText>
     </group>
   )
 }
@@ -200,7 +199,7 @@ function App() {
 
       <Suspense fallback={null}><Heart setAnimationFinished={setAnimationFinished} animationFinished={animationFinished}/></Suspense>
       
-      <Cloud count={2} radius={40} /> 
+      <Cloud count={14} radius={50} /> 
 
     </Canvas>
   );
