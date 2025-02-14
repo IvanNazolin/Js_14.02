@@ -203,6 +203,6 @@ function App() {
 
     </Canvas>
   );
-}
+} 
 
 export default App;
