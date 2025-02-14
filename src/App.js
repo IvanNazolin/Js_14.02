@@ -17,7 +17,7 @@ softShadows()
 
 const HINT_PHRASE = "Я счастлив благодаря нашему знакомству"
 //14 words
-const birthdayText = "Даша, ты удивительный и очень интресный человек, в сущьности ты идеальна 💫"
+const birthdayText = "Dasha, you are an amazing and very interesting person, in essence you are perfect."
 
 
 const word_list = birthdayText.split(" ").reverse()
