@@ -17,7 +17,7 @@ softShadows()
 
 const HINT_PHRASE = "Удачи на соревнованиях"
 //14 words
-const birthdayText = "known. ever have I which girl best the and awesome most the are you Nika,"
+const birthdayText = "test paje"
 
 
 const word_list = birthdayText.split(" ").reverse()
@@ -200,7 +200,7 @@ function App() {
 
       <Suspense fallback={null}><Heart setAnimationFinished={setAnimationFinished} animationFinished={animationFinished}/></Suspense>
       
-      <Cloud count={15} radius={40} /> 
+      <Cloud count={2} radius={40} /> 
 
     </Canvas>
   );
